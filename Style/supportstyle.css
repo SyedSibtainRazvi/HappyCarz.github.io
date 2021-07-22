@@ -97,7 +97,9 @@ html{
     letter-spacing: 0.2px;
     cursor: pointer;
     color:black;
-    transition: 0.4s;   
+    transition: 0.4s;  
+    padding-bottom: 2rem;   
+
 }
 .one a{
     text-decoration: none;
