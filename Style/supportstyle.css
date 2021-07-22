@@ -158,3 +158,25 @@ footer{
     font-weight: 700;
     font-size: 1.5rem;
 }
+/****************TOUCH UPS************/
+@media screen and (max-width:988px){
+    .navbar{
+        padding: 1rem;
+}
+#navbarSupportedContent > ul{
+    padding-left: 0.8rem;
+}
+#navbarSupportedContent > ul > li:nth-child(n) > a{
+    padding: 0.8rem;
+}
+.mid .hero h2{
+    font-size: 2.5rem;
+}
+.mid .hero p{
+    font-size: 1rem;
+}
+.mid .hero a{
+    font-size: 0.9rem;
+}
+
+}
