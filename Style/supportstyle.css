@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+.navbar{
+    background-color:#000000;
+    padding: 1rem 8rem;
+    z-index: 1000;
+}
+.navbar .navbar-brand{
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+#navbarSupportedContent > ul > li:nth-child(n) > a{
+    color: white;
+    font-size: 1rem;
+    padding: 0 0.8rem;
+}
+#navbarSupportedContent > ul > li:nth-child(n) > a:hover{
+    color: #00FA9A;
+}
+.mid{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+}
+.mid video{
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    object-fit: cover;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.mid .hero{
+    position: relative;
+}
+.mid .hero h2{
+    font-weight: bold;
+    padding-bottom: 1rem;
+    color: #00FA9A  !important;
+}
+.mid .hero p{
+    font-size: 1.1rem;
+    letter-spacing: 0.2px;
+    width: 55%;
+    padding-bottom: 1rem;
+}
+.mid .hero a{
+    background-color:white;
+    font-weight: 600;
+    padding: 0.6rem 1.4rem;
+    border-radius: 10px;
+    text-decoration: none;
+    transition: 0.8s;
+}
+.mid .hero a:hover{
+    background-color: #00FA9A;
+    border-radius: 20px;
+}
+
+/************CENTRES*****************/
+
+.centre .heading h2{
+    font-weight: 700;
+    font-size: 2.5rem;
+    padding: 2rem;
+}
+.centre{
+    background-color: white;
+}
+.centre .one{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 2rem 2rem;
+    border-radius: 8px;
+}
+.one h5{
+    font-weight: 500;
+    font-size: 1rem;
+    letter-spacing: 0.2px;
+    cursor: pointer;
+    color:black;
+    transition: 0.4s;   
+}
+.one a{
+    text-decoration: none;
+}
+.one h5:hover{
+    font-size:2rem;
+
+}
+
+/***************CONTACT**************/
+
+.contact{
+    background-color: black;
+}
+.contact .text{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: auto;
+}
+.contact .text h5{
+    color:#00FA9A;
+    font-weight: 800;
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+} 
+.contact .text h2{
+    color:white;
+    font-weight: 700;
+    font-size: 2.5rem;
+} 
+.contact .text h6{
+    color:white;
+    font-weight: 700;
+    font-size: 2.5rem;
+}
+.contact .text p{
+    color:white;
+    font-weight: 400;
+    font-size: 1rem;
+    letter-spacing: 0.5px;
+}
+
+footer{
+    background-color: black;
+}
+#centre > div > footer > div > div.row.text-center.d-flex.justify-content-center.pt-5.mb-3 > div:nth-child(n) > h6 > a{
+    text-decoration: none;
+    color: white;
+    transition: 0.4s;
+}
+#centre > div > footer > div > div.row.text-center.d-flex.justify-content-center.pt-5.mb-3 > div:nth-child(n) > h6 > a:hover{
+    color:#00FA9A;
+}
+#centre > div > footer > div > div.row.d-flex.text-center.justify-content-center.mb-md-0.mb-4 > div > p{
+    color: white;
+    font-weight: 700;
+    font-size: 1.5rem;
+}

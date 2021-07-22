@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+.navbar{
+    background-color:#000000;
+    padding: 1rem 8rem;
+    z-index: 1000;
+}
+.navbar .navbar-brand{
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+#navbarSupportedContent > ul > li:nth-child(n) > a{
+    color: white;
+    font-size: 1rem;
+    padding: 0 0.8rem;
+}
+#navbarSupportedContent > ul > li:nth-child(n) > a:hover{
+    color: #00FA9A;
+}
+.mid{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+}
+.mid video{
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    object-fit: cover;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.mid .hero{
+    position: relative;
+}
+.mid .hero h2{
+    font-weight: bold;
+    padding-bottom: 1rem;
+}
+.mid .hero p{
+    font-size: 1.1rem;
+    letter-spacing: 0.2px;
+    width: 55%;
+    padding-bottom: 1rem;
+}
+.mid .hero a{
+    background-color:#00ff9d;
+    font-weight: 600;
+    padding: 0.6rem 1.4rem;
+    border-radius: 10px;
+    text-decoration: none;
+    transition: 0.8s;
+}
+.mid .hero a:hover{
+    background-color: white;
+    border-radius: 20px;
+}
+/**********************About**********************/
+
+.about .text{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: auto;
+}
+.about .text h5{
+    color:#00FA9A;
+    font-weight: 800;
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+} 
+.about .text h2{
+    color:black;
+    font-weight: 700;
+    font-size: 2.5rem;
+} 
+.about .text p{
+    color:black;
+    font-weight: 400;
+    font-size: 1rem;
+    letter-spacing: 0.5px;
+} 
+.about .text a{
+    background-color:#00FA9A;
+    font-weight: 600;
+    padding: 0.6rem 1.4rem;
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+    transition: 0.8s;
+}
+.about .text a:hover{
+    background-color:black;
+    border-radius: 20px;
+}
+
+/***************** OUR PLANS ***************/
+.heading h2{
+    font-weight: bold;
+}
+.service{
+    background-image: url(../Images/plans.jpg);
+    width: 100%;
+    height: auto;
+    background-size: cover;
+}
+.service .one{
+    background: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 1rem 2rem;
+    border-radius: 8px;
+}
+.one h5{
+    font-weight: bold;
+    font-size: 1.2rem;
+    letter-spacing: 0.2px;
+    color:#00FA9A;
+    transition: 0.5s;   
+}
+.one p{
+    text-align: left;
+}
+.one h5:hover{
+    font-size:2rem;
+}
+/**************CHOOSE US**************/
+
+
+.choose .text{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: auto;
+}
+.choose .text h5{
+    color:#00FA9A;
+    font-weight: 800;
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+} 
+.choose .text h2{
+    color:black;
+    font-weight: 700;
+    font-size: 2.5rem;
+} 
+.choose .text h6{
+    color:black;
+    font-weight: 700;
+    font-size: 2.5rem;
+}
+.choose .text p{
+    color:black;
+    font-weight: 400;
+    font-size: 1rem;
+    letter-spacing: 0.5px;
+}
+.one .fas{
+    color: #00FA9A;
+}
+
+/******************CHOOSETWO************/
+
+.choosetwo .text{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: auto;
+}
+.choosetwo .text h5{
+    color:#00FA9A;
+    font-weight: 800;
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+} 
+.choosetwo .text h2{
+    color:black;
+    font-weight: 700;
+    font-size: 2.5rem;
+} 
+.choosetwo .text h6{
+    color:black;
+    font-weight: 700;
+    font-size: 2.5rem;
+}
+.choosetwo .text p{
+    color:black;
+    font-weight: 400;
+    font-size: 1rem;
+    letter-spacing: 0.5px;
+}
+.one .fas{
+    color: #00FA9A;
+}
+.choosetwo{
+    margin-top: -14rem;
+}
+.icons{
+    color: #00FA9A;
+}
+
+
+/***********FOOTER**************/
+
+body > footer{
+    background-color: black;
+}
+body > footer > div > div.row.text-center.d-flex.justify-content-center.pt-5.mb-3 > div:nth-child(n) > h6 > a{
+    text-decoration: none;
+    color: white;
+    transition: 0.4s;
+}
+body > footer > div > div.row.text-center.d-flex.justify-content-center.pt-5.mb-3 > div:nth-child(n) > h6 > a:hover{
+    color:#00FA9A;
+}
+body > footer > div > div .row.pb-3 .col{
+    color: white;
+}
+body > footer > div > div.row.d-flex.text-center.justify-content-center.mb-md-0.mb-4 > div > p{
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+/************TOUCH UPS*************/
+
+@media screen and (max-width:988px){
+    .navbar{
+        padding: 1rem;
+}
+#navbarSupportedContent > ul{
+    padding-left: 0.8rem;
+}
+#navbarSupportedContent > ul > li:nth-child(n) > a{
+    padding: 0.8rem;
+}
+.mid .hero h2{
+    font-size: 2.5rem;
+}
+.mid .hero p{
+    font-size: 1rem;
+}
+.mid .hero a{
+    font-size: 0.9rem;
+}
+
+}
