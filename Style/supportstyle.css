@@ -159,6 +159,7 @@ footer{
     font-size: 1.5rem;
 }
 /****************TOUCH UPS************/
+
 @media screen and (max-width:988px){
     .navbar{
         padding: 1rem;
